@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="modul4-grp-app:war">
+    <output-path>$PROJECT_DIR$/../module4/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>modul4-grp-app</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="modul4-grp-app-1.0.0.war">
+      <element id="artifact" artifact-name="modul4-grp-app:war exploded" />
+    </root>
+  </artifact>
+</component>
